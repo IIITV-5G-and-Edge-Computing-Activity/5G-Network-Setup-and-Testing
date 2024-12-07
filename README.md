@@ -12,7 +12,6 @@
 9. [Troubleshooting and Errors](#troubleshooting-and-errors)
 10. [Contributors](#contributors)
 11. [Acknowledgments](#acknowledgments)
-12. [License](#license)
 
 ---
 
