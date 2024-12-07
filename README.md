@@ -76,15 +76,15 @@ The project utilized three models to optimize resource allocation within the 5G 
 
 1. **Linear Regression**: 
    - Used to establish baseline predictions.
-   - Performance: R² = 0.54
+   - Performance: R² = 0.19
 
 2. **Polynomial Regression**:
    - Captures non-linear relationships in network parameters.
-   - Performance: R² = 0.74
+   - Performance: R² = 0.59
 
 3. **XGBoost**:
    - Final and most effective model.
-   - Achieved R² = 0.91
+   - Achieved R² = 0.71
 
 ### Dataset Features:
 The dataset included the following key metrics:
