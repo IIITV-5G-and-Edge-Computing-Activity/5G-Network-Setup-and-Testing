@@ -1,0 +1,23 @@
+# UERANSIM gNodeB Configuration
+mcc: "404"               # Match with the MCC from Open5GS
+mnc: "10"                # Match with the MNC from Open5GS
+
+nci: "0x00000001"        # Unique gNodeB Cell Identity (must be a 32-bit hex value)
+idLength: 32             # gNodeB ID length
+gNbId: 1                 # Unique gNodeB ID
+tac: 1                   # Tracking Area Code (Match with Open5GS TAC)
+
+linkIp: 127.0.0.1        # gNodeB's local IP for SCTP
+ngapIp: 127.0.0.1        # gNodeB's NGAP interface IP
+gtpIp: 127.0.0.1         # gNodeB's GTP interface IP
+
+ignoreStreamIds: true    # Required field
+
+slices:                  # Add slices configuration
+  - sst: 1               # Slice/Service Type (should match UE and core configuration)
+    sd: 1
+#    sd: 010101           # Match this with the AMF and UE
+
+amfConfigs:
+  - address: 127.0.0.5   # AMF IP address (from your `amf.yaml`)
+    port: 38412          # Default AMF NGAP port

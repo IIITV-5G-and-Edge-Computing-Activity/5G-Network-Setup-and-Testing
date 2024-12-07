@@ -1,0 +1,47 @@
+supi: imsi-404980000000001  # Match with Free5GC subscriber data
+mcc: "404"                  # Match with Free5GC MCC
+mnc: "98"                   # Match with Free5GC MNC
+key: "465B5CE8B199B49FAA5F0A2EE238A6BC"  # Subscriber Key
+opc: "E8ED289DEBA952E4283B54E88E6183CA"  # Pre-computed Operator Code
+op: "E8ED289DEBA952E4283B54E88E6183CA"   # Operator Code (mandatory field for UE)
+opType: "OPC"               # Use the pre-computed OPC
+
+gnbSearchList:
+  - 127.0.0.1               # gNodeB IP address
+amfConfigs:
+  - address: 127.0.0.18     # AMF IP address (match AMF configuration in Free5GC)
+    port: 38412             # AMF NGAP port (default)
+amf: '8000'
+uacAic:                     # User Access Control Access Identities Configuration
+  mps: false                # Mobile positioning services (set to false unless needed)
+  mcs: false                # Mission critical services (set to false unless needed)
+uacAcc:                     # User Access Control Access Class Configuration
+  normalClass: 0            # Default access class (set to 0 for normal UE behavior)
+  class11: false            # Emergency-related access class
+  class12: false            # Emergency-related access class
+  class13: false            # Emergency-related access class
+  class14: false            # Emergency-related access class
+  class15: false            # Emergency-related access class
+integrity:
+  IA1: true
+  IA2: true
+  IA3: true
+ciphering:
+  EA1: true
+  EA2: true
+  EA3: true
+integrityMaxRate:           # Maximum integrity protection data rate
+  uplink: "full"            # 'full' or specific value (e.g., "500 Mbps")
+  downlink: "full"          # 'full' or specific value (e.g., "500 Mbps")
+sessions:
+  - type: "IPv4"
+    apn: "internet"         # APN matching Free5GC configuration
+    slice:
+      sst: 1                # Slice/Service Type
+      sd: "010203"          # Slice Differentiator
+    tac: 1                  # Match with Free5GC AMF TAI configuration  
+
+security:
+  integrity: false
+  ciphering: false
+

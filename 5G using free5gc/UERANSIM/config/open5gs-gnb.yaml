@@ -1,0 +1,16 @@
+mcc: "404"                # Match with Free5GC MCC
+mnc: "98"                 # Match with Free5GC MNC
+nci: "0x00000001"         # Unique gNodeB Cell Identity (32-bit hex value)
+idLength: 32              # gNodeB ID length
+tac: 1                    # Match with Free5GC Tracking Area Code
+slices:
+  - sst: 1                # Slice/Service Type
+    sd: "010203"          # Updated Slice Differentiator
+amfConfigs:
+  - address: 127.0.0.18   # AMF IP address (match AMF configuration)
+    port: 38412           # Default AMF NGAP port
+linkIp: 127.0.0.1         # gNodeB's local IP for SCTP
+ngapIp: 127.0.0.1         # gNodeB's NGAP interface IP
+gtpIp: 127.0.0.1          # gNodeB's GTP interface IP
+ignoreStreamIds: true     # Required field
+
