@@ -108,8 +108,8 @@ For a comprehensive list of troubleshooting steps and solutions, refer to the 2 
 ---
 
 ## Contributors
-- **Contributor 1**: Focused on implementing machine learning models and dataset preparation and led the setup of the 5G core and radio access network using Open5GS, and UERANSIM.
-- **Contributor 2**: Focused on machine learning optimization techniques and lLed the setup of the 5G core and radio access network using Free5GC, and UERANSIM.
+- **Contributor 1: Sathvika Mamindla**: Focused on implementing machine learning models and dataset preparation and led the setup of the 5G core and radio access network using Open5GS, and UERANSIM.
+- **Contributor 2: Akash Maurya**: Focused on machine learning optimization techniques and lLed the setup of the 5G core and radio access network using Free5GC, and UERANSIM.
 - **Supervisor**: Professor Bhupendra Kumar.
 
 ---
