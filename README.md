@@ -51,9 +51,11 @@ The system architecture is composed of:
 - **Dependencies:** MongoDB, Python 3.8+, GCC, CMake, SCTP libraries.
 - **Tools:** Open5GS, Free5GC, UERANSIM.
 
+---
 
 Go through the 2 PDFs uploaded for detailed installation steps for Open5gs and Free5gs.
 Download the IPYNB notebook to run the ML complete end to end Resource Allocation in 5G Project
+
 ---
 
 ## Machine Learning Approach
@@ -108,8 +110,8 @@ For a comprehensive list of troubleshooting steps and solutions, refer to the 2 
 ---
 
 ## Contributors
-- **Contributor 1: Sathvika Mamindla**: Focused on implementing machine learning models and dataset preparation and led the setup of the 5G core and radio access network using Open5GS, and UERANSIM.
-- **Contributor 2: Akash Maurya**: Focused on machine learning optimization techniques and lLed the setup of the 5G core and radio access network using Free5GC, and UERANSIM.
+- **Contributor 1: Sathvika Mamindla (202151084)**: Focused on implementing machine learning models and dataset preparation and led the setup of the 5G core and radio access network using Open5GS, and UERANSIM.
+- **Contributor 2: Akash Maurya (202151013)**: Focused on machine learning optimization techniques and lLed the setup of the 5G core and radio access network using Free5GC, and UERANSIM.
 - **Supervisor**: Professor Bhupendra Kumar.
 
 ---
