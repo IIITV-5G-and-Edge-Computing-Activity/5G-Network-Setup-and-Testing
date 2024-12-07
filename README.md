@@ -11,11 +11,24 @@
 8. [Results and Analysis](#results-and-analysis)
 9. [Troubleshooting and Errors](#troubleshooting-and-errors)
 10. [Contributors](#contributors)
+11. [Video Drive Link](#Video)
 
 ---
 
 ## Project Overview
 This project involves building a 5G testbed using open-source platforms like **Open5GS**, **Free5GC**, and **UERANSIM**, alongside implementing **Machine Learning (ML)** models to optimize resource allocation. The project aims to simulate real-world 5G network scenarios and apply ML techniques to enhance bandwidth usage, reduce latency, and improve resource efficiency.
+
+---
+
+## Contributors
+- **Contributor 1: Sathvika Mamindla (202151084)**: Focused on implementing machine learning models and dataset preparation and led the setup of the 5G core and radio access network using Open5GS, and UERANSIM.
+- **Contributor 2: Akash Maurya (202151013)**: Focused on machine learning optimization techniques and lLed the setup of the 5G core and radio access network using Free5GC, and UERANSIM.
+- **Supervisor**: Professor Bhupendra Kumar.
+
+---
+
+## Video
+https://drive.google.com/drive/folders/1rS93xvHYyijNT6-3-vuyck3b1cC-rKhO?usp=sharing
 
 ---
 
@@ -106,13 +119,6 @@ The dataset included the following key metrics:
    - Fixed inconsistencies in `tac` and `gnbSearchList` settings in `ueransim-gnb.yaml`.
 
 For a comprehensive list of troubleshooting steps and solutions, refer to the 2 pdf's uploaded.
-
----
-
-## Contributors
-- **Contributor 1: Sathvika Mamindla (202151084)**: Focused on implementing machine learning models and dataset preparation and led the setup of the 5G core and radio access network using Open5GS, and UERANSIM.
-- **Contributor 2: Akash Maurya (202151013)**: Focused on machine learning optimization techniques and lLed the setup of the 5G core and radio access network using Free5GC, and UERANSIM.
-- **Supervisor**: Professor Bhupendra Kumar.
 
 ---
 
